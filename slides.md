@@ -2,8 +2,14 @@ class: center, middle
 
 # Data visualization
 
-### Radovan Bast ([@__radovan](https://twitter.com/__radovan))
+<br>
+
+## Radovan Bast ([@__radovan](https://twitter.com/__radovan))
 ### UiT The Arctic University of Norway
+
+<br>
+
+### Slides: http://bit.ly/data-visualization-fsk-8002
 
 ---
 
@@ -1199,10 +1205,8 @@ class: center, middle, inverse
 
 ---
 
-## Conclusions
+## Slides: http://bit.ly/data-visualization-fsk-8002
 
-### Slides: https://cicero.xyz/v3/remark/0.14.0/github.com/bast/data-visualization/main/slides.md/
+## Sources: https://github.com/bast/data-visualization
 
-### Sources: https://github.com/bast/data-visualization
-
-### "Data visualization clinic" Friday next week
+## "Data visualization clinic" Friday next week
