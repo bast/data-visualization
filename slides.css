@@ -1,0 +1,163 @@
+h1 {
+  color: #4a235a;
+}
+
+h2 {
+  color: #6c3483;
+}
+
+h3 {
+  color: #6c3483;
+}
+
+a {
+  color: #0072b2;
+}
+
+small {
+  color: #909090;
+}
+
+li {
+  line-height: 1.5;
+}
+
+.inverse {
+  background: #272822;
+  color: #777872;
+}
+
+.inverse h1, .inverse h2 {
+  color: #a3e4d7;
+  line-height: 0.8em;
+}
+
+.left-column60 {
+  width: 60%;
+  float: left;
+}
+
+.left-column50 {
+  width: 50%;
+  float: left;
+}
+
+.right-column40 {
+  width: 40%;
+  float: right;
+}
+
+.right-column50 {
+  width: 50%;
+  float: right;
+}
+
+.round-smaller {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.round {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.left-column-70 {
+  width: 70%;
+  float: left;
+}
+
+.right-column-30 {
+  width: 30%;
+  float: right;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  font-size: 14px;
+  color: #505050;
+}
+.footnote:before {
+  content: "[";
+}
+.footnote:after {
+  content: "]";
+}
+
+.emph {
+  background-color: #c8deff;
+}
+
+.remark {
+  color: #505050;
+  font-style: italic;
+}
+
+.quote {
+  color: #0072b2;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.cite {
+  font-size: 14px;
+  color: #505050;
+}
+.cite:before {
+  content: "[";
+}
+.cite:after {
+  content: "]";
+}
+
+.dark-background {
+  background-image: url(https://raw.githubusercontent.com/bast/data-visualization/master/img/background-dark.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.dark-background h1 {
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.dark-background h2 {
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.dark-background h3 {
+  color: #ffffff;
+}
+
+.light-background {
+  background-image: url(https://raw.githubusercontent.com/bast/data-visualization/master/img/background-light.png); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.light-background h1 {
+  font-size: 70px;
+  color: #404040;
+}
+
+.light-background h2 {
+  color: #909090;
+}
+
+.light-background h3 {
+  color: #909090;
+}
