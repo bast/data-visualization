@@ -7,6 +7,55 @@ class: center, middle
 
 ---
 
+## About me
+
+.left-column50[
+<img src="img/avatar.jpeg" style="width: 50%;"/>
+
+- Theoretical chemist turned research software engineer.
+- I write research software and teach programming to researchers and lead the
+  [CodeRefinery project](https://coderefinery.org).
+- Co-author of the CMake Cookbook.
+]
+
+.right-column50[
+### Code projects
+
+- DIRAC
+- Dalton
+- OpenRSP
+- XCint
+- XCFun
+- Numgrid
+- GIMIC
+- Parselglossy
+- Autocmake
+- Runtest
+- Sonar
+- Smeshing
+- Blob
+- SMARTool
+]
+
+---
+
+## CodeRefinery
+
+We teach tools and practices for the
+development of reproducible and reusable research software.
+
+.left-column50[
+<img src="img/map.jpg" style="width: 80%;"/>
+
+- https://coderefinery.org
+- https://coderefinery.org/workshops/
+]
+.right-column50[
+<img src="img/coderefinery.png" style="padding-left: 30px; width: 80%;"/>
+]
+
+---
+
 <!-- intro slides: 5 min -->
 
 ## Goals for this course
@@ -1152,5 +1201,8 @@ class: center, middle, inverse
 
 ## Conclusions
 
-- Link to slides: https://cicero.xyz/v3/remark/0.14.0/github.com/bast/data-visualization/main/slides.md/
-- "Data visualization clinic" Friday next week
+### Slides: https://cicero.xyz/v3/remark/0.14.0/github.com/bast/data-visualization/main/slides.md/
+
+### Sources: https://github.com/bast/data-visualization
+
+### "Data visualization clinic" Friday next week
