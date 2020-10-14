@@ -949,7 +949,7 @@ Which problems can you anticipate?
   https://github.com/bast/jupyter-binder-example
 - R/[ggplot2](https://ggplot2.tidyverse.org/) on [RStudio](https://rstudio.com/)/[R Markdown](https://rmarkdown.rstudio.com/) served via [Binder](https://mybinder.org/):
   https://github.com/bast/rstudio-binder-example
-- All plots in this slidedeck are reproducible on Jupyter notebooks: https://github.com/bast/docenhance-data-visualization
+- All plots in this slidedeck are reproducible on Jupyter notebooks: https://github.com/bast/data-visualization
 
 
 ### Other fantastic tools which I will not demonstrate
