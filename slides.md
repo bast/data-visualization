@@ -85,6 +85,15 @@ development of reproducible and reusable research software.
 
 ---
 
+## Overview
+
+- ...
+- Data formats (15 min)
+- Figures and tables in reports and publications (5-10 min)
+- ...
+
+---
+
 ## Resources
 
 ### Books
@@ -966,7 +975,7 @@ class: center, middle, inverse
 
 ---
 
-## What is the problem with storing data like this?
+## What problems can arive when storing data like this?
 
 <img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="50%">
 
@@ -976,7 +985,7 @@ Discuss possible problems in a collaborative document.
 
 ---
 
-## What is the problem with storing data like this?
+## What problems can arive when storing data like this?
 
 <img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="50%">
 
