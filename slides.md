@@ -972,7 +972,13 @@ class: center, middle, inverse
 
 <!-- this is a phantasy dataset, apologies to biology students/researchers - this is not my domain -->
 
---
+Discuss possible problems in a collaborative document.
+
+---
+
+## What is the problem with storing data like this?
+
+<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="50%">
 
 - .emph[Format]: Limited interoperability with other programs
 - .emph[Error prone] (see e.g. [this famous example](https://www.washingtonpost.com/news/wonk/wp/2013/04/16/is-the-best-evidence-for-austerity-based-on-an-excel-spreadsheet-error/))
@@ -981,7 +987,7 @@ class: center, middle, inverse
 
 ---
 
-## "Messy" data structure
+## How should we arrange the data?
 
 .left-column50[
 <img src="img/svalbard-compact.png" alt="compact table" width="30%">
@@ -990,6 +996,8 @@ class: center, middle, inverse
 
 <img src="img/svalbard-transposed.png" alt="table wide format transposed" width="70%">
 ]
+
+--
 
 .right-column50[
 For the moment let us not focus on the tool, but the .emph[data structure]
@@ -1051,6 +1059,7 @@ seal,C,2
 ### There are many more formats
 
 - [JSON](https://en.wikipedia.org/wiki/JSON)
+- [XML](https://en.wikipedia.org/wiki/XML)
 - [GeoJSON](https://geojson.org/)
 - [NPY (NumPy arrays)](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html)
 - [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format)
@@ -1074,8 +1083,8 @@ Oct 10 2020,UiT Norges arktiske universitet,15
 ```
 
 Data cleaning is a bit outside the scope of this course but still good to know:
-- There are tools to clean and merge inconsistent data sets
-  (e.g. [OpenRefine](https://openrefine.org/))
+- There are tools to clean and merge inconsistent data sets (e.g. [OpenRefine](https://openrefine.org/), see also
+  [this Data Carpentry lesson](https://datacarpentry.org/OpenRefine-ecology-lesson/))
 - This does not have to be done manually
 
 ---
@@ -1116,7 +1125,7 @@ my-project/
 
 - Store visualization script/notebook and data in a repository under .emph[version control]
   (e.g. on [GitHub](https://github.com/))
-- .emph[Stora data close to the visualization pipeline] (same repository, even if it requires extra storage)
+- Try to .emph[stora data close to the visualization pipeline] (same repository, even if it requires extra storage)
 - Archive with a persistent identifier: get a .emph[digital object identifier (DOI)] on services like
   [Zenodo](https://zenodo.org/) or [Dataverse](https://dataverse.no/)
 
