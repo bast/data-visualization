@@ -17,30 +17,14 @@ class: center, middle
 
 .left-column50[
 <img src="img/avatar.jpeg" style="width: 50%;"/>
-
-- Theoretical chemist turned research software engineer.
-- I write research software and teach programming to researchers and lead the
-  [CodeRefinery project](https://coderefinery.org).
-- Co-author of the CMake Cookbook.
 ]
 
 .right-column50[
-### Code projects
-
-- DIRAC
-- Dalton
-- OpenRSP
-- XCint
-- XCFun
-- Numgrid
-- GIMIC
-- Parselglossy
-- Autocmake
-- Runtest
-- Sonar
-- Smeshing
-- Blob
-- SMARTool
+- Theoretical chemist turned research software engineer.
+- I write research software and teach programming to researchers and lead the
+  [CodeRefinery project](https://coderefinery.org).
+- Developing libraries for computational chemistry and computational geometry
+  (used in oceanography).
 ]
 
 ---
@@ -51,13 +35,13 @@ We teach tools and practices for the
 development of reproducible and reusable research software.
 
 .left-column50[
-<img src="img/map.jpg" style="width: 80%;"/>
+<img src="img/map.jpg" style="width: 100%;"/>
 
 - https://coderefinery.org
-- https://coderefinery.org/workshops/
+- https://coderefinery.org/workshops/past/
 ]
 .right-column50[
-<img src="img/coderefinery.png" style="padding-left: 30px; width: 80%;"/>
+<img src="img/coderefinery.png" style="padding-left: 30px; width: 60%;"/>
 ]
 
 ---
