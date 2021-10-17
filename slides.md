@@ -283,8 +283,12 @@ Data visualization is a
   [Shiny](https://shiny.rstudio.com/),
   [Data-Driven Documents](https://d3js.org/), ...
 - Take an example that is close to what I want
-- Try to feed in my own data
-- Refine
+- Try to rerun it with original example data
+- Try to replace example data with my own data
+- Tweak and refine
+
+
+### How is your process from start to report/thesis/publication?
 
 ---
 
