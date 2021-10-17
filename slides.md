@@ -833,141 +833,6 @@ These can offer other categorizations:
 
 class: center, middle, inverse
 
-# Choosing the right tools
-
----
-
-## Choosing the right tools: scriptable
-
-### There is not the one perfect language and not the one perfect library for everything
-
-- You will have to choose what fits best you and your group
-- We will show examples using .emph[Python, R, and JavaScript]
-
-### No manual post-processing
-
-- This will bite you when you need to regenerate
-  50 figures one day before submission deadline or regenerate a set of figures
-  after the person who created them left the group.
-- Use software that can be scripted: batch processing and reproducibility (more about that in next section).
-
----
-
-## Choosing the right tools: free
-
-### Use free software and free tools
-
-- Even if the university pays for a license, what happens after you leave university
-  or after they stop paying? How can other groups build on your work?
-- .emph[Python and R are free], and popular for "notebook"-based pipelines, but also a number
-  .emph[JavaScript frameworks] exist, especially for maps.
-- Plain text files and standard formats instead of proprietary formats.
-
-### For any academic discipline it will be a good investment to learn a bit of Python or R if you want to do data visualization
-
----
-
-## Visualization libraries (incomplete list)
-
-Two main families of libraries: procedural (e.g. Matplotlib) and declarative
-(using grammar of graphics).
-
-.left-column50[
-### Python
-
-- [Matplotlib](https://matplotlib.org/gallery.html): MATLAB users will be at home
-- [Seaborn](https://seaborn.pydata.org/examples/index.html): statistical functions built in
-- [Altair](https://altair-viz.github.io/gallery/index.html): declarative visualization (R users
-  will be more at home), statistics built in
-- [Plotly](https://plotly.com/python/): interactive graphs
-- [Bokeh](https://demo.bokeh.org/): also here good for interactivity
-- [ggplot](https://yhat.github.io/ggpy/): R users will be more at home
-- [PyNGL](https://www.pyngl.ucar.edu/Examples/gallery.shtml): used in the weather forecast community
-- [K3D](https://k3d-jupyter.org/showcase/): Jupyter notebook extension for 3D visualization
-]
-
-.right-column50[
-### R
-
-- [ggplot2](https://ggplot2.tidyverse.org/): system for declaratively creating graphics, based on the grammar of graphics
-- [Shiny](https://shiny.rstudio.com/): interactive graphs and notebooks
-
-
-### JavaScript
-
-- [Data-Driven Documents](https://d3js.org/)
-]
-
----
-
-class: center, middle, inverse
-
-# Reproducible and reusable plots
-
----
-
-## Reproducibility and FAIR principles
-
-<img src="img/turing-way/8-fair-principles.jpg" style="width: 50%;"/>
-
-.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY.]
-
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
-
----
-
-## FAIR principles and data visualization
-
-Which problems can you anticipate?
-
---
-
-### Findable
-
-.quote["On which of my external hard-drives is my script?"]
-
-
-### Accessible
-
-.quote["Can you please give me access to your plotting scripts?"]
-
-
-### Interoperable
-
-.quote["How can I convert this file format?"]
-
-
-### Reusable
-
-.quote["I wish I could reuse this visualization pipeline for my new data!"]
-
----
-
-## Reproducible and reusable plots
-
-- Ask yourself: what problems do I anticipate when rerunning this in 12 months?
-- Document all tools and dependencies used .emph[with versions]
-
-
-### .emph[Demo]: visualization pipeline on [Binder](https://mybinder.org/)
-
-- Python/[Altair](https://altair-viz.github.io/) on [Jupyter](https://jupyter.org/) served via [Binder](https://mybinder.org/):
-  https://github.com/bast/jupyter-binder-example
-- R/[ggplot2](https://ggplot2.tidyverse.org/) on [RStudio](https://rstudio.com/)/[R Markdown](https://rmarkdown.rstudio.com/) served via [Binder](https://mybinder.org/):
-  https://github.com/bast/rstudio-binder-example
-- All plots in this slidedeck are reproducible on Jupyter notebooks: https://github.com/bast/data-visualization
-
-
-### Other fantastic tools which I will not demonstrate
-
-- [Data-Driven Documents](https://d3js.org/) with [gallery of examples](https://observablehq.com/@d3/gallery)
-- Interactive plots with [Shiny](https://shiny.rstudio.com/gallery/)
-- [Zenodo](https://zenodo.org/) where you can get a persistent identifier (DOI) and make your pipeline citable
-
----
-
-class: center, middle, inverse
-
 # Problematic plots
 
 ---
@@ -1315,6 +1180,141 @@ class: center, middle, inverse
 - Use these figures in your manuscript.
 
 - You can still use them outside (in your PhD thesis) since they are now licensed CC.
+
+---
+
+class: center, middle, inverse
+
+# Choosing the right tools
+
+---
+
+## Choosing the right tools: scriptable
+
+### There is not the one perfect language and not the one perfect library for everything
+
+- You will have to choose what fits best you and your group
+- We will show examples using .emph[Python, R, and JavaScript]
+
+### No manual post-processing
+
+- This will bite you when you need to regenerate
+  50 figures one day before submission deadline or regenerate a set of figures
+  after the person who created them left the group.
+- Use software that can be scripted: batch processing and reproducibility (more about that in next section).
+
+---
+
+## Choosing the right tools: free
+
+### Use free software and free tools
+
+- Even if the university pays for a license, what happens after you leave university
+  or after they stop paying? How can other groups build on your work?
+- .emph[Python and R are free], and popular for "notebook"-based pipelines, but also a number
+  .emph[JavaScript frameworks] exist, especially for maps.
+- Plain text files and standard formats instead of proprietary formats.
+
+### For any academic discipline it will be a good investment to learn a bit of Python or R if you want to do data visualization
+
+---
+
+## Visualization libraries (incomplete list)
+
+Two main families of libraries: procedural (e.g. Matplotlib) and declarative
+(using grammar of graphics).
+
+.left-column50[
+### Python
+
+- [Matplotlib](https://matplotlib.org/gallery.html): MATLAB users will be at home
+- [Seaborn](https://seaborn.pydata.org/examples/index.html): statistical functions built in
+- [Altair](https://altair-viz.github.io/gallery/index.html): declarative visualization (R users
+  will be more at home), statistics built in
+- [Plotly](https://plotly.com/python/): interactive graphs
+- [Bokeh](https://demo.bokeh.org/): also here good for interactivity
+- [ggplot](https://yhat.github.io/ggpy/): R users will be more at home
+- [PyNGL](https://www.pyngl.ucar.edu/Examples/gallery.shtml): used in the weather forecast community
+- [K3D](https://k3d-jupyter.org/showcase/): Jupyter notebook extension for 3D visualization
+]
+
+.right-column50[
+### R
+
+- [ggplot2](https://ggplot2.tidyverse.org/): system for declaratively creating graphics, based on the grammar of graphics
+- [Shiny](https://shiny.rstudio.com/): interactive graphs and notebooks
+
+
+### JavaScript
+
+- [Data-Driven Documents](https://d3js.org/)
+]
+
+---
+
+class: center, middle, inverse
+
+# Reproducible and reusable plots
+
+---
+
+## Reproducibility and FAIR principles
+
+<img src="img/turing-way/8-fair-principles.jpg" style="width: 50%;"/>
+
+.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY.]
+
+For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
+
+---
+
+## FAIR principles and data visualization
+
+Which problems can you anticipate?
+
+--
+
+### Findable
+
+.quote["On which of my external hard-drives is my script?"]
+
+
+### Accessible
+
+.quote["Can you please give me access to your plotting scripts?"]
+
+
+### Interoperable
+
+.quote["How can I convert this file format?"]
+
+
+### Reusable
+
+.quote["I wish I could reuse this visualization pipeline for my new data!"]
+
+---
+
+## Reproducible and reusable plots
+
+- Ask yourself: what problems do I anticipate when rerunning this in 12 months?
+- Document all tools and dependencies used .emph[with versions]
+
+
+### .emph[Demo]: visualization pipeline on [Binder](https://mybinder.org/)
+
+- Python/[Altair](https://altair-viz.github.io/) on [Jupyter](https://jupyter.org/) served via [Binder](https://mybinder.org/):
+  https://github.com/bast/jupyter-binder-example
+- R/[ggplot2](https://ggplot2.tidyverse.org/) on [RStudio](https://rstudio.com/)/[R Markdown](https://rmarkdown.rstudio.com/) served via [Binder](https://mybinder.org/):
+  https://github.com/bast/rstudio-binder-example
+- All plots in this slidedeck are reproducible on Jupyter notebooks: https://github.com/bast/data-visualization
+
+
+### Other fantastic tools which I will not demonstrate
+
+- [Data-Driven Documents](https://d3js.org/) with [gallery of examples](https://observablehq.com/@d3/gallery)
+- Interactive plots with [Shiny](https://shiny.rstudio.com/gallery/)
+- [Zenodo](https://zenodo.org/) where you can get a persistent identifier (DOI) and make your pipeline citable
 
 ---
 
