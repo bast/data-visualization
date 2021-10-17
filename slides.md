@@ -968,6 +968,104 @@ Which problems can you anticipate?
 
 class: center, middle, inverse
 
+# Problematic plots
+
+---
+
+## Example 1
+
+<img src="img/graph-crimes/pie.jpg" alt="problematic plot" width="50%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 2
+
+<img src="img/graph-crimes/average-hours.gif" alt="problematic plot" width="50%">
+
+.cite[Figure from https://www.callingbullshit.org/tools/tools_proportional_ink.html]
+
+---
+
+## Example 3
+
+<img src="img/graph-crimes/cars.jpg" alt="problematic plot" width="50%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 4
+
+<img src="img/graph-crimes/proportional.jpg" alt="problematic plot" width="50%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 5
+
+<img src="img/graph-crimes/households.png" alt="problematic plot" width="60%">
+
+.cite[Figure from https://www.callingbullshit.org/tools/tools_proportional_ink.html]
+
+---
+
+## Example 6
+
+<img src="img/graph-crimes/linear-to-log.png" alt="problematic plot" width="60%">
+
+.cite[Figure from https://www.callingbullshit.org/tools/tools_proportional_ink.html]
+
+---
+
+## Example 7
+
+<img src="img/graph-crimes/guns.jpg" alt="problematic plot" width="40%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 8
+
+.left-column50[
+<img src="img/graph-crimes/banana.jpg" alt="problematic plot" width="100%">
+]
+
+.right-column50[
+.cite[Figure from https://twitter.com/GraphCrimes]
+]
+
+---
+
+## Example 9
+
+<img src="img/graph-crimes/line.jpg" alt="problematic plot" width="60%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 10
+
+<img src="img/graph-crimes/map.jpg" alt="problematic plot" width="70%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 11
+
+<img src="img/graph-crimes/bars.jpg" alt="problematic plot" width="80%">
+
+.cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+class: center, middle, inverse
+
 # Data formats
 
 ---
