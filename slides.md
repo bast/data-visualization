@@ -78,8 +78,8 @@ development of reproducible and reusable research software.
 
 ### What I will not focus on
 
-- Programming languages and tools
-  > .remark[But I will point to examples to get you on a good track]
+- Programming languages and technical details of tools
+  > .remark[But I will show examples to get you on a good track]
 - Data visualization for the general public
   > .remark[Very important but they often have different requirements]
 
