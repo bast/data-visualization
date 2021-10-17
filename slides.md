@@ -87,10 +87,32 @@ development of reproducible and reusable research software.
 
 ## Overview
 
-- ...
+<!-- mention which sections will be there and how long each -->
+
+.left-column50[
+### Part 1
+
+- Introduction (10 min)
+- Why visualizing data (5 min)
+- Figure design, design process, and fundamentals (15 min)
+- Gallery of visualizations (15 min)
+- Discussing problematic plots (10 min)
+]
+
+.right-column50[
+### Part 2
+
 - Data formats (15 min)
 - Figures and tables in reports and publications (5-10 min)
-- ...
+- Reproducibility and FAIR principles (5 min)
+- Choosing the right tools (10 min)
+- Reproducible and reusable plots (20 min)
+
+
+### Next week
+
+- Data clinic
+]
 
 ---
 
@@ -217,19 +239,6 @@ studied; each will contribute to understanding."]
 ### Because others do it or tell us to
 
 - And we often copy the style and culture
-
----
-
-## Overview
-
-<!-- mention which sections will be there and how long each -->
-
-### - Figure design, design process, and fundamentals (10 min)
-### - Gallery of visualizations (10 min)
-### - Choosing the right tools (5 min)
-### - Reproducible and reusable plots (10 min)
-### - Data formats (10 min)
-### - Figures and tables in reports and publications (5 min)
 
 ---
 
