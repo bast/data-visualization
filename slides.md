@@ -217,7 +217,7 @@ studied; each will contribute to understanding."]
 - Presentations/papers: facilitate understanding
 - Communication with the public
 
-> .remark[reflect on how important and powerful data visualization is in particular in 2020: COVID-19, politics, climate change, ...]
+> .remark[reflect on how important and powerful data visualization is, in particular in 2020-2021: COVID-19, politics, climate change, ...]
 
 
 ### Because others do it or tell us to
@@ -253,7 +253,7 @@ Data visualization is a
 
 ## How I design plots
 
-- Sketch with pen and paper
+- Sometimes: Sketch with pen and paper
 - Browse directories/galleries for inspiration:
   [Matplotlib](https://matplotlib.org/gallery.html),
   [Seaborn](https://seaborn.pydata.org/examples/index.html),
