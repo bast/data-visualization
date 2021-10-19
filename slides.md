@@ -1320,7 +1320,7 @@ class: center, middle, inverse
 
 ---
 
-### .emph[Demo]: visualization pipeline on [Binder](https://mybinder.org/)
+## .emph[Demo]: visualization pipeline on [Binder](https://mybinder.org/)
 
 - Python/[Altair](https://altair-viz.github.io/) on [Jupyter](https://jupyter.org/) served via [Binder](https://mybinder.org/):
   https://github.com/bast/jupyter-binder-example
@@ -1341,6 +1341,7 @@ class: center, middle, inverse
 
 - Consider FAIR principles
 - Consider reproducibility
+- Prefer free tools
 - Slides: http://bit.ly/data-visualization-fsk-8002
 - Sources: https://github.com/bast/data-visualization
 - "Data visualization clinic" next week
