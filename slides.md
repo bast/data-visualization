@@ -1320,6 +1320,88 @@ class: center, middle, inverse
 
 ---
 
+## Jupyter notebooks
+
+.left-column50[
+<img src="img/jupyter/medicean-stars.png" style="width: 50%;"/>
+
+**One of the first notebooks: Galileo's drawings of Jupiter and its Medicean
+Stars** from Sidereus Nuncius. Image courtesy of the History of Science
+Collections, University of Oklahoma Libraries (CC-BY).
+]
+
+.right-column50[
+- **Code, text, equations, figures, plots**, etc. are interleaved, creating a *computational narrative*.
+- [*"an environment in which users execute code, see what happens, modify and
+  repeat in a kind of iterative conversation between researcher and
+  data"*](https://www.nature.com/articles/d41586-018-07196-1)
+- The name "Jupyter" derives from Julia+Python+R, but today Jupyter kernels
+  exist for [dozens of programming languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+]
+
+---
+
+## Example
+
+.left-column50[
+<img src="img/jupyter/gravity.jpg" style="width: 60%;"/>
+
+Discovery of gravitational waves.
+]
+
+.right-column50[
+As a case example, let us have a look at the analysis published together with the
+discovery of gravitational waves. [This
+page](https://losc.ligo.org/tutorials/) lists the available analyses
+and presents several options to browse them.
+
+- A quick look at short segments of data can be found at
+  [https://github.com/losc-tutorial/quickview](https://github.com/losc-tutorial/quickview)
+- The notebook can be opened and interactively explored
+  using Binder by clicking the "launch Binder" button.
+]
+
+---
+
+## Another example
+
+.left-column50[
+<img src="img/jupyter/activity_inequality.png" style="width: 100%;"/>
+
+Stanford Activity Inequality Study.
+]
+
+.right-column50[
+Researchers in the Stanford Activity Inequality Study measured daily
+activity from cell phone tracking data for over 700,000 users in
+different countries across the world.
+- All data and notebooks are available at
+  [https://github.com/timalthoff/activityinequality](https://github.com/timalthoff/activityinequality)
+
+For **more examples**, head over to the [Gallery of interesting Jupyter
+Notebooks](https://github.com/jupyter/jupyter/wiki).
+]
+
+---
+
+## R Markdown
+
+Same idea as in the Jupyter notebook.
+
+Example:
+- https://github.com/clauswilke/dataviz (the source code for https://clauswilke.com/dataviz/)
+- Compare these two:
+  - https://github.com/clauswilke/dataviz/blob/master/proportional_ink.Rmd
+  - https://clauswilke.com/dataviz/proportional-ink.html
+
+---
+
+<img src="https://opendreamkit.org/public/images/use-cases/reproducible_logbook.png" style="width: 75%;"/>
+
+.cite[Juliette Taka, Logilab and the OpenDreamKit project (2017), https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/]
+
+---
+
 ## .emph[Demo]: visualization pipeline on [Binder](https://mybinder.org/)
 
 - Python/[Altair](https://altair-viz.github.io/) on [Jupyter](https://jupyter.org/) served via [Binder](https://mybinder.org/):
@@ -1333,7 +1415,36 @@ class: center, middle, inverse
 
 - [Data-Driven Documents](https://d3js.org/) with [gallery of examples](https://observablehq.com/@d3/gallery)
 - Interactive plots with [Shiny](https://shiny.rstudio.com/gallery/)
-- [Zenodo](https://zenodo.org/) where you can get a persistent identifier (DOI) and make your pipeline citable
+
+---
+
+## [Zenodo](https://zenodo.org/) can give you a persistent identifier (DOI) and make your pipeline citable
+
+Rather than specifying a GitHub repository when launching binder, you can instead use a Zenodo DOI.
+
+Example:
+- We will be using an existing Zenodo DOI [10.5281/zenodo.3886864](https://doi.org/10.5281/zenodo.3247652) to start Binder
+- Go to https://mybinder.org and fill information using Zenodo DOI (as shown on the animation below):
+  <img src="https://miro.medium.com/max/1050/1*xOABVY2hNtVmjV5-LXreFw.gif" style="width: 60%;"/>
+- You can also get a Binder badge and update the README file in the
+  repository. It is good practice to add both the Zenodo badge and the
+  corresponding Binder badge.
+
+---
+
+## Progression
+
+- Learn the very basics
+  - Learn a bit of Python
+  - Or R
+- It can be a good idea to start learning right away in a notebook
+  - Python: Jupyter
+  - R: R Markdown in R Studio
+- Later try Binder
+- Later learn how to get a DOI for your Binder
+- Now your plotting recipe can be cited and is reproducible
+
+### This takes time and it is OK to take time
 
 ---
 
