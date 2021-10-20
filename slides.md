@@ -86,9 +86,9 @@ development of reproducible and reusable research software.
 .right-column50[
 ### Part 2
 
+- Reproducibility and FAIR principles (5 min)
 - Data formats (15 min)
 - Figures and tables in reports and publications (5-10 min)
-- Reproducibility and FAIR principles (5 min)
 - Choosing the right tools (10 min)
 - Reproducible and reusable plots (20 min)
 
@@ -931,6 +931,56 @@ class: center, middle, inverse
 
 class: center, middle, inverse
 
+# Reproducibility and FAIR principles
+
+---
+
+## Reproducibility and FAIR principles
+
+<img src="img/turing-way/8-fair-principles.jpg" style="width: 50%;"/>
+
+.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY.]
+
+For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
+
+---
+
+## FAIR principles and data visualization
+
+Which problems can you anticipate?
+
+--
+
+### Findable
+
+.quote["On which of my external hard-drives is my script?"]
+
+
+### Accessible
+
+.quote["Can you please give me access to your plotting scripts?"]
+
+
+### Interoperable
+
+.quote["How can I convert this file format?"]
+
+
+### Reusable
+
+.quote["I wish I could reuse this visualization pipeline for my new data!"]
+
+---
+
+## Reproducible and reusable plots
+
+- Ask yourself: what problems do I anticipate when rerunning this in 12 months?
+- Document all tools and dependencies used .emph[with versions]
+
+---
+
+class: center, middle, inverse
+
 # Data formats
 
 ---
@@ -1180,56 +1230,6 @@ class: center, middle, inverse
 - Use these figures in your manuscript.
 
 - You can still use them outside (in your PhD thesis) since they are now licensed CC.
-
----
-
-class: center, middle, inverse
-
-# Reproducibility and FAIR principles
-
----
-
-## Reproducibility and FAIR principles
-
-<img src="img/turing-way/8-fair-principles.jpg" style="width: 50%;"/>
-
-.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY.]
-
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
-
----
-
-## FAIR principles and data visualization
-
-Which problems can you anticipate?
-
---
-
-### Findable
-
-.quote["On which of my external hard-drives is my script?"]
-
-
-### Accessible
-
-.quote["Can you please give me access to your plotting scripts?"]
-
-
-### Interoperable
-
-.quote["How can I convert this file format?"]
-
-
-### Reusable
-
-.quote["I wish I could reuse this visualization pipeline for my new data!"]
-
----
-
-## Reproducible and reusable plots
-
-- Ask yourself: what problems do I anticipate when rerunning this in 12 months?
-- Document all tools and dependencies used .emph[with versions]
 
 ---
 
