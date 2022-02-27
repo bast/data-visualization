@@ -10,7 +10,9 @@ class: center, middle, inverse
 
 .cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY.]
 
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
+For a discussion of FAIR in the context of software, see:
+
+https://softdev4research.github.io/4OSS-lesson/.
 
 ---
 
