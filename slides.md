@@ -962,11 +962,15 @@ class: center, middle, inverse
 
 ## Reproducibility and FAIR principles
 
-<img src="img/turing-way/8-fair-principles.jpg" style="width: 50%;"/>
+<img src="img/turing-way/8-fair-principles.jpg" style="height: 450px;"/>
 
-.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY.]
+.cite[(c) [Scriberia](http://www.scriberia.co.uk) for [The Turing Way](https://the-turing-way.netlify.com), CC-BY]
 
-For a discussion of FAIR in the context of software, see https://softdev4research.github.io/4OSS-lesson/.
+---
+
+<img src="img/reproducible-research.jpg" style="height: 560px;"/>
+
+.cite[Heidi Seibold, CC-BY 4.0, https://twitter.com/HeidiBaya/status/1579385587865649153]
 
 ---
 
@@ -991,13 +995,6 @@ For a discussion of FAIR in the context of software, see https://softdev4researc
 ### Reusable
 
 .quote["I wish I could reuse this visualization pipeline for my new data!"]
-
----
-
-## Reproducible and reusable plots
-
-- Ask yourself: what problems do I anticipate when rerunning this in 12 months?
-- Document all tools and dependencies used .emph[with versions]
 
 ---
 
