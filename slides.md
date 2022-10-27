@@ -1073,11 +1073,16 @@ How can these 3 examples be problematic for .emph[automated data visualization]?
 
 .right-column50[
 - Columns are variables
+
 - Rows are observations/measurements
+
 - "Long form"
+
 - Order does not matter
+
 - .emph[Easy to extend] with more species and more sites
   without modifying the scripts
+
 - .emph[Structure for storing data] - this does not mean that this is ideal
   for tables in presentations or publications
 
