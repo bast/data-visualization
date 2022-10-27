@@ -970,11 +970,8 @@ For a discussion of FAIR in the context of software, see https://softdev4researc
 
 ---
 
-## FAIR principles and data visualization
+## FAIR principles and data visualization: Which problems can you anticipate?
 
-Which problems can you anticipate?
-
---
 
 ### Findable
 
@@ -1118,7 +1115,7 @@ seal,C,2
 
 - Often we want to visualize data sets with inconsistent or missing entries:
 
-```csv
+```text
 Date,Organization,Number of participants
 2020-09-27,UiT,20
 Oct 10 2020,UiT Norges arktiske universitet,15
@@ -1248,7 +1245,7 @@ class: center, middle, inverse
 
 ### This is how you can keep the copyright of your figures
 
-- Upload them to [figshare](https://figshare.com/) or [Zenodo](https://zenodo.org/).
+- Upload them to [figshare](https://figshare.com/) or [Zenodo](https://zenodo.org/) or [Dataverse](https://dataverse.no/).
 
 - License them under a [Creative Commons](https://creativecommons.org/) license.
 
@@ -1286,9 +1283,12 @@ class: center, middle, inverse
 
 - Even if the university pays for a license, what happens after you leave university
   or after they stop paying? How can other groups build on your work?
+
 - .emph[Python and R are free], and popular for "notebook"-based pipelines, but also a number
   .emph[JavaScript frameworks] exist, especially for maps.
+
 - Plain text files for small datasets
+
 - Standard formats instead of proprietary formats.
 
 ### For any academic discipline it will be a good investment to learn a bit of Python or R if you want to do data visualization
@@ -1431,14 +1431,17 @@ Example:
 
 - Python/[Altair](https://altair-viz.github.io/) on [Jupyter](https://jupyter.org/) served via [Binder](https://mybinder.org/):
   https://github.com/bast/jupyter-binder-example
+
 - R/[ggplot2](https://ggplot2.tidyverse.org/) on [RStudio](https://rstudio.com/)/[R Markdown](https://rmarkdown.rstudio.com/) served via [Binder](https://mybinder.org/):
   https://github.com/bast/rstudio-binder-example
+
 - All plots in this slidedeck are reproducible on Jupyter notebooks: https://github.com/bast/data-visualization
 
 
 ### Other fantastic tools which I will not demonstrate
 
 - [Data-Driven Documents](https://d3js.org/) with [gallery of examples](https://observablehq.com/@d3/gallery)
+
 - Interactive plots with [Shiny](https://shiny.rstudio.com/gallery/)
 
 ---
@@ -1465,19 +1468,29 @@ Example:
 - It can be a good idea to start learning right away in a notebook
   - Python: Jupyter
   - R: R Markdown in R Studio
+  - [Quarto](https://quarto.org/)
 - Later try Binder
 - Later learn how to get a DOI for your Binder
 - Now your plotting recipe can be cited and is reproducible
 
+
 ### This takes time and it is OK to take time
+
+.quote[If I had six hours to chop down a tree, I’d spend the first four hours sharpening the axe.]
+.cite[Abraham Lincoln]
 
 ---
 
 ## Summary
 
-- Consider FAIR principles
-- Consider reproducibility
-- Prefer free tools
+- FAIR principles and reproducibility will be good for you (and for others)
+
+- Document all tools and dependencies used .emph[with versions]
+
+- Prefer .emph[free tools]
+
 - Slides: http://bit.ly/data-visualization-fsk-8002
+
 - Sources: https://github.com/bast/data-visualization
+
 - "Data visualization clinic" next week
