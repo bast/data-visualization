@@ -1172,10 +1172,13 @@ my-project/
 
 .right-column50[
 - There is not the one right way
+
 - Organize them to be understandable and reproducible
   by others and your .emph[future you]
+
 - .emph[Lottery factor]: If you win the lottery and leave academic research today,
   make sure your research group can still find all related files and understand them
+
 - Add .emph[license files]: make data and script reusable by others
 ]
 
