@@ -13,18 +13,20 @@ class: center, middle
 
 ---
 
-## About me
+# About me
 
-.left-column50[
-<img src="img/avatar.jpeg" style="width: 50%;"/>
+.left-column30[
+<img src="img/avatar.jpeg" style="width: 80%;"/>
 ]
 
-.right-column50[
+.right-column70[
 - Theoretical chemist turned research software engineer.
+
 - I write research software and teach programming to researchers and lead the
   [CodeRefinery project](https://coderefinery.org).
-- Developing libraries for computational chemistry and computational geometry
-  (used in oceanography).
+
+- I lead the [high-performance computing group](https://hpc.uit.no) and the
+  [research software engineering group](https://research-software.uit.no) at UiT.
 ]
 
 ---
@@ -46,26 +48,24 @@ development of reproducible and reusable research software.
 
 ---
 
-<!-- intro slides: 5 min -->
-
-## Goals for this course
-
-<!-- set expectations for this course -->
+## Goals for this course/lesson
 
 ### Our focus
 
 - Data visualization for .emph[publications and presentations] within and outside academia
+
 - .emph[Practical] recommendations
-- .emph[Reproducibility]
+
+- .emph[Reproducibility] **for you** and others
+
 - Know which tools exist -> .emph[good starting points]
 
 
 ### What I will not focus on
 
 - Programming languages and technical details of tools
-  > .remark[But I will show examples to get you on a good track]
-- Data visualization for the general public
-  > .remark[Very important but they often have different requirements]
+
+- Data visualization for the general public (newspapers, television)
 
 ---
 
@@ -76,21 +76,29 @@ development of reproducible and reusable research software.
 .left-column50[
 ### Part 1
 
-- Introduction (10 min)
-- Why visualizing data (5 min)
-- Figure design, design process, and fundamentals (15 min)
-- Gallery of visualizations (15 min)
-- Discussing problematic plots (10 min)
+- Introduction
+
+- Why visualizing data
+
+- Figure design, design process, and fundamentals
+
+- Gallery of visualizations
+
+- Discussing problematic plots
 ]
 
 .right-column50[
 ### Part 2
 
-- Reproducibility and FAIR principles (5 min)
-- Data formats (15 min)
-- Figures and tables in reports and publications (5-10 min)
-- Choosing the right tools (10 min)
-- Reproducible and reusable plots (20 min)
+- Reproducibility and FAIR principles
+
+- Data formats
+
+- Figures and tables in reports and publications
+
+- Choosing the right tools
+
+- Reproducible and reusable plots
 
 
 ### Next week
@@ -155,6 +163,7 @@ pipeline ready to be sent to the printer, no manual post-processing needed."]
 ### Avoid tools that cannot be automated/scripted
 
 - It may cause you the last minute trouble.
+
 - Stay away from tools where plots can only be modified manually by pointing
   and clicking.
 
@@ -163,7 +172,8 @@ pipeline ready to be sent to the printer, no manual post-processing needed."]
 
 - So that we don't have to study the plot for 20 minutes with eyes hurting to
   get the message.
-- Font size, colors, suitable representation, good title and caption.
+
+- Font size, colors, suitable representation, good title, and caption.
 
 ---
 
@@ -207,22 +217,22 @@ All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 
 ### More insight into data: easier to see patterns and problems
 
-.quote["... make both calculations and graphs. Both sorts of output should be
-studied; each will contribute to understanding."]
-.cite[F. J. Anscombe, 1973]
+- Both calculations and graphs will contribute to understanding
 
-
+.left-column50[
 ### Communicating insight
 
 - Presentations/papers: facilitate understanding
 - Communication with the public
 
 > .remark[reflect on how important and powerful data visualization is, in particular in 2020-2021: COVID-19, politics, climate change, ...]
+]
 
-
+.right-column50[
 ### Because others do it or tell us to
 
 - And we often copy the style and culture
+]
 
 ---
 
@@ -254,6 +264,7 @@ Data visualization is a
 ## How I design plots
 
 - Sometimes: Sketch with pen and paper
+
 - Browse directories/galleries for inspiration:
   [Matplotlib](https://matplotlib.org/gallery.html),
   [Seaborn](https://seaborn.pydata.org/examples/index.html),
@@ -267,8 +278,11 @@ Data visualization is a
   [Shiny](https://shiny.rstudio.com/),
   [Data-Driven Documents](https://d3js.org/), ...
 - Take an example that is close to what I want
+
 - Try to rerun it with original example data
+
 - Try to replace example data with my own data
+
 - Tweak and refine
 
 
@@ -368,7 +382,9 @@ structure of an enzyme, a 3D relief of a terrain)
 ### Fundamental use cases
 
 - Distinguish groups of data
+
 - Represent data values
+
 - Highlight
 
 .cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
@@ -390,7 +406,9 @@ structure of an enzyme, a 3D relief of a terrain)
 
 .right-column50[
 - 4% of the population is affected
+
 - View your color figures under CVD simulations
+
 - Use color scales designed to be CVD-friendly
 ]
 
@@ -482,23 +500,29 @@ class: center, middle, inverse
 ## Gallery of visualizations
 
 We will show .emph[typical examples] and discuss .emph[main pitfalls] for each:
+.left-column50[
 
 - x-y relationships
+
 - Amounts
+
 - Distributions
+
 - Proportions
+
 - Geospatial data
+
 - Trends and uncertainty
 
 .cite[Categorization somehow following https://clauswilke.com/dataviz/directory-of-visualizations.html]
+]
 
-
-### The goal of doing this
+.right-column50[
+## The goal of doing this
 
 - So that we know what to search for
 - Source of inspiration
 
----
 
 ## Where to find good overviews
 
@@ -508,7 +532,7 @@ These can offer other categorizations:
 - https://datavizcatalogue.com/search.html
 - https://depictdatastudio.com/charts/
 - https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary
-- https://extremepresentation.typepad.com/.shared/image.html?/photos/uncategorized/choosing_a_good_chart.jpg
+]
 
 ---
 
@@ -771,6 +795,7 @@ These can offer other categorizations:
 
 .right-column50[
 - Averaging, polynomial fits, splines, LOESS (locally estimated scatterplot smoothing), ...
+
 - Usually better to fit a line to transformed data than to fit a nonlinear
   curve to untransformed data
 ]
