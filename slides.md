@@ -777,7 +777,7 @@ These can offer other categorizations:
 <img src="jupyter/gallery/geospatial/choropleth.png" width="70%">
 
 - Work best when coloring represents a density
-- Can be problematic when it represents a quantity which is not a density
+- Can be problematic when it represents a quantity which is not a density (example: Fig 15.14 in https://clauswilke.com/dataviz/geospatial-data.html)
 
 .cite[https://altair-viz.github.io/gallery/choropleth.html]
 
@@ -842,6 +842,7 @@ These can offer other categorizations:
 
 - Always indicate what these mean: standard deviation? standard error of the
   mean? 95% confidence interval? 95% credible interval?
+- Example: Fig 16.5 in https://clauswilke.com/dataviz/visualizing-uncertainty.html
 ]
 
 .right-column50[
@@ -951,6 +952,22 @@ class: center, middle, inverse
 <img src="img/graph-crimes/bars.jpg" alt="problematic plot" width="80%">
 
 .cite[Figure from https://twitter.com/GraphCrimes]
+
+---
+
+## Example 12
+
+<img src="img/graph-crimes/ordering.png" alt="problematic plot" width="50%">
+
+.cite[Example taken from ["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
+
+---
+
+## Example 13
+
+<img src="img/graph-crimes/confusing.png" alt="problematic plot" width="70%">
+
+.cite[Example taken from ["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
 
 ---
 
@@ -1462,6 +1479,7 @@ Example:
 
 ## Progression
 
+- Start with a working example and try adapting it
 - Learn the very basics
   - Learn a bit of Python
   - Or R
