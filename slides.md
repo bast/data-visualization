@@ -1333,8 +1333,11 @@ Two main families of libraries: procedural (e.g. Matplotlib) and declarative
 - https://carpentries.org/
   - https://datacarpentry.org/R-ecology-lesson/
   - https://datacarpentry.org/python-ecology-lesson/
+
 - ["Data Visualization: A practical introduction", K. Healy](https://socviz.co/)
+
 - https://coderefinery.github.io/data-visualization-python/
+
 - https://coderefinery.github.io/jupyter/
 
 ---
@@ -1350,9 +1353,9 @@ class: center, middle, inverse
 .left-column50[
 <img src="img/jupyter/medicean-stars.png" style="width: 50%;"/>
 
-**One of the first notebooks: Galileo's drawings of Jupiter and its Medicean
-Stars** from Sidereus Nuncius. Image courtesy of the History of Science
-Collections, University of Oklahoma Libraries (CC-BY).
+- **One of the first notebooks: Galileo's drawings of Jupiter and its Medicean
+    Stars** from Sidereus Nuncius. Image courtesy of the History of Science
+    Collections, University of Oklahoma Libraries (CC-BY).
 ]
 
 .right-column50[
