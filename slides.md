@@ -971,6 +971,14 @@ class: center, middle, inverse
 
 ---
 
+## Example 14
+
+<img src="img/graph-crimes/histogram.png" alt="problematic plot" width="70%">
+
+.cite[Example taken from ["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
+
+---
+
 class: center, middle, inverse
 
 # Reproducibility and FAIR principles
