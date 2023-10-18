@@ -1,22 +1,23 @@
-class: center, middle
+class: center, middle, gray-background
 
-# Data visualization
+# Reusable data visualization
 
-<br>
+## Radovan Bast ([fosstodon.org/@radovan](https://fosstodon.org/@radovan))
 
-## Radovan Bast ([@__radovan](https://twitter.com/__radovan))
 ### UiT The Arctic University of Norway
 
-<br>
+<img src="img/coderefinery.png" style="height: 140px;"/>
+&nbsp;
+<img src="img/rse-logo.png" style="height: 180px;"/>
 
-### Slides: http://bit.ly/data-visualization-fsk-8002
+Text: CC-BY 4.0
 
 ---
 
-# About me
+## About me
 
 .left-column30[
-<img src="img/avatar.jpeg" style="width: 80%;"/>
+<img src="img/avatar.jpg" style="width: 80%;"/>
 ]
 
 .right-column70[
@@ -33,8 +34,8 @@ class: center, middle
 
 ## CodeRefinery
 
-We teach tools and practices for the
-development of reproducible and reusable research software.
+We teach all the **essential tools** which are usually skipped in academic
+education so everyone can make full use of software, computing, and data. 
 
 .left-column50[
 <img src="img/map.jpg" style="width: 100%;"/>
