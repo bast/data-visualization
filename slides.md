@@ -918,6 +918,8 @@ Rather than specifying a GitHub repository when launching
 
 ## Summary
 
+- Don't forget to **tell a story**
+
 - FAIR principles and reproducibility will be good for you (and for others)
 
 - Document all tools and dependencies used .emph[with versions]
