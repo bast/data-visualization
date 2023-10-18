@@ -965,7 +965,7 @@ class: center, middle, inverse
 
 ---
 
-## FAIR principles and data visualization: Which problems can you anticipate?
+## FAIR: Which problems can you anticipate?
 
 
 ### Findable
@@ -985,7 +985,7 @@ class: center, middle, inverse
 
 ### Reusable
 
-.quote["I wish I could reuse this visualization pipeline for my new data!"]
+.quote["I wish I could reuse this for my new data!"]
 
 ---
 
