@@ -35,7 +35,7 @@ Text: CC-BY 4.0
 ## CodeRefinery
 
 We teach all the **essential tools** which are usually skipped in academic
-education so everyone can make full use of software, computing, and data. 
+education so everyone can make full use of software, computing, and data.
 
 .left-column50[
 <img src="img/map.jpg" style="width: 100%;"/>
@@ -136,6 +136,38 @@ All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 
 ---
 
+# How many 5s?
+
+464418163541729611394089491019
+
+103214981928889407852268902875
+
+389879353920237244649469321810
+
+290602004777144868218046078720
+
+522890797338149835404330684291
+
+.cite[Inspired by https://courses.cs.washington.edu/courses/cse512/23sp/, in turn inspired after J. Stasko]
+
+---
+
+# How many 5s?
+
+464418163.red[5]41729611394089491019
+
+1032149819288894078.red[5]226890287.red[5]
+
+3898793.red[5]3920237244649469321810
+
+290602004777144868218046078720
+
+.red[5]2289079733814983.red[5]404330684291
+
+.cite[Inspired by https://courses.cs.washington.edu/courses/cse512/23sp/, in turn inspired after J. Stasko]
+
+---
+
 ## Why visualizing data?
 
 
@@ -157,6 +189,16 @@ All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 
 - And we often copy the style and culture
 ]
+
+---
+
+class: center, middle, inverse
+
+# How do you read a paper?
+
+# How do you read posters during a poster session?
+
+(reflect about the value of a good visualization)
 
 ---
 

@@ -153,6 +153,11 @@ a {
   background-color: #c8deff;
 }
 
+.red {
+  color: red;
+  font-weight: bold;
+}
+
 .remark {
   color: #8e44ad;
   font-style: italic;
