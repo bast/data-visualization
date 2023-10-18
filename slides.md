@@ -105,8 +105,6 @@ class: center, middle, inverse
 
 # Why visualizing data?
 
-<!-- 5 min -->
-
 ---
 
 ## Anscombe's quartet
@@ -229,9 +227,6 @@ class: center, middle, inverse
 
 ## How I design plots
 
-- "Before you start, define your goals in 1-3 sentences"
-  .cite[L. Garrison, "Share Your Science: Visualization for Communication"]
-
 - Sometimes: Sketch with pen and paper
 
 - Browse directories/galleries for inspiration:
@@ -268,28 +263,49 @@ class: center, middle, inverse
 
 ---
 
-## Design principles
+## Checklist for good visual communication
 
-### Good data visualization is ...
+[This list is adapted from a similar list in a presentation by **L. Garrison,
+"Share Your Science: Visualization for Communication"**]
 
-- .emph[trustworthy/reliable]
-- .emph[accessible/usable]
-- .emph[elegant/aesthetic]
+- Define your goals
 
-.cite[["Data Visualisation: A Handbook for Data Driven Design", A. Kirk](https://www.visualisingdata.com/book/)]
+- Show the data (go beyond summary statistics)
 
+- Be honest with your visuals
 
-### Examples
+- Consider accessibility
 
-- Reliable: Proportional ink
-- Usable: Avoid 3D plots (unless it's 3D object)
-- Elegant: "Maximize the data/ink ratio, within reason"
+- Avoid taxing working memory
 
-.cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
+- Tell a story
+
+- Reflect on uncertainty and unknowns
 
 ---
 
-## Reliable: The principle of "proportional ink"
+## Define your goals
+
+- "Before you start, define your goals in 1-3 sentences"
+  .cite[L. Garrison, "Share Your Science: Visualization for Communication"]
+
+- Audience?
+
+- Time constraints
+
+---
+
+## Show the data: strip-plot vs box-plot vs violin-plot
+
+<img src="img/boxplot-problem.gif" width="100%">
+
+.cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
+
+---
+
+## Be honest with your visuals
+
+## The principle of "proportional ink"
 
 Examples with disproportional data/ink ratio:
 
@@ -300,7 +316,17 @@ Examples with disproportional data/ink ratio:
 
 ---
 
-## Usable: Avoid 3D plots (unless it's 3D object)
+## Be honest with your visuals
+
+## Another bad example
+
+<img src="img/global-warming.png" alt="figure with an axis range which is misleading" width="60%">
+
+.cite[Citation needed]
+
+---
+
+## Accessibility: Avoid 3D plots (unless it's 3D object)
 
 ... unless you are plotting something inherently 3D (molecular structures,
 structure of an enzyme, a 3D relief of a terrain)
@@ -314,7 +340,7 @@ structure of an enzyme, a 3D relief of a terrain)
 
 class: center, middle, inverse
 
-# Colors
+# Accessibility: Colors
 
 "We need five colors for the plot: black ... red ... green ... blue ... ... ... orange?"
 
@@ -451,14 +477,6 @@ class: center, middle, inverse
 
 ---
 
-## Strip-plot vs box-plot vs violin-plot
-
-<img src="img/boxplot-problem.gif" width="100%">
-
-.cite[[J. Matejka, G. Fitzmaurice, "Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)]
-
----
-
 class: center, middle, inverse
 
 # Problematic plots
@@ -569,6 +587,28 @@ See also: https://viz.wtf
 
 class: center, middle, inverse
 
+# Tell a story
+
+---
+
+## Minard's Visualization Of Napoleon's 1812 March
+
+<img src="img/minard.gif" alt="Minard's Visualization Of Napoleon's 1812 March" width="100%">
+
+.cite[https://www.edwardtufte.com/tufte/minard]
+
+- Another great example: [1854 Broad Street cholera outbreak](https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak#Investigation_by_John_Snow)
+
+---
+
+## There is a story in here: can you improve the text?
+
+<img src="img/design-process/with-subtitle.svg" width="80%">
+
+---
+
+class: center, middle, inverse
+
 # Reproducibility and FAIR principles
 
 ---
@@ -620,8 +660,6 @@ class: center, middle, inverse
 ## What problems can arive when storing data like this?
 
 <img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="100%">
-
-<!-- this is a phantasy dataset, apologies to biology students/researchers - this is not my domain -->
 
 ---
 
@@ -886,39 +924,26 @@ Rather than specifying a GitHub repository when launching
 
 - Prefer .emph[free tools]
 
-- Slides: http://bit.ly/data-visualization-fsk-8002
-
-- Sources: https://github.com/bast/data-visualization
-- https://coderefinery.github.io/data-visualization-python/
-
 - "Data visualization clinic" next week
 
 ---
 
-## Resources
-
 ### Books
 
 - ["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)
-  > .remark[Excellent book which does not focus on R or Python but on the fundamentals]
 - ["Data Visualization: A practical introduction", K. Healy](https://socviz.co/)
-  > .remark[Good if you want to learn R at the same time]
 - ["Data Visualisation: A Handbook for Data Driven Design", A. Kirk](https://www.visualisingdata.com/book/)
-  > .remark[Great book but a bit too general for me]
 
-> .remark[There are many more ...]
-
----
-
-## More resources
 
 ### Papers
 
 - [N. P. Rougier, M. Droettboom, P. E. Bourne, "Ten Simple Rules for Better Figures", PLoS Comput Biol 10(9): e1003833 (2014)](https://doi.org/10.1371/journal.pcbi.1003833)
 
 
-### Lessons/talks
+### Courses/talks
 
+- https://coderefinery.github.io/data-visualization-python/
+- https://courses.cs.washington.edu/courses/cse512/23sp/
 - https://swcarpentry.github.io/visualization-novice/
 - https://www.ub.uio.no/english/courses-events/events/all-libraries/2020/research-bazaar/visualisation.html
 - https://ajstewartlang.github.io/SIPS_2019/SIPS_presentation.html
