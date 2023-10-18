@@ -1337,7 +1337,9 @@ Example:
 
 ---
 
-<img src="https://opendreamkit.org/public/images/use-cases/reproducible_logbook.png" style="width: 75%;"/>
+class: center, middle
+
+<img src="https://opendreamkit.org/public/images/use-cases/reproducible_logbook.png" style="width: 100%;"/>
 
 .cite[Juliette Taka, Logilab and the OpenDreamKit project (2017), https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/]
 
