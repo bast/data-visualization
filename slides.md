@@ -855,29 +855,13 @@ class: center, middle, inverse
 
 ## Example 4
 
-<img src="img/graph-crimes/proportional.jpg" alt="problematic plot" width="50%">
-
-.cite[Figure from https://twitter.com/GraphCrimes]
-
----
-
-## Example 5
-
-<img src="img/graph-crimes/households.png" alt="problematic plot" width="60%">
-
-.cite[Figure from https://www.callingbullshit.org/tools/tools_proportional_ink.html]
-
----
-
-## Example 6
-
 <img src="img/graph-crimes/linear-to-log.png" alt="problematic plot" width="60%">
 
 .cite[Figure from https://www.callingbullshit.org/tools/tools_proportional_ink.html]
 
 ---
 
-## Example 7
+## Example 5
 
 <img src="img/graph-crimes/guns.jpg" alt="problematic plot" width="40%">
 
@@ -885,7 +869,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 8
+## Example 6
 
 .left-column50[
 <img src="img/graph-crimes/banana.jpg" alt="problematic plot" width="100%">
@@ -897,7 +881,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 9
+## Example 7
 
 <img src="img/graph-crimes/line.jpg" alt="problematic plot" width="60%">
 
@@ -905,7 +889,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 10
+## Example 8
 
 <img src="img/graph-crimes/map.jpg" alt="problematic plot" width="70%">
 
@@ -913,7 +897,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 11
+## Example 9
 
 <img src="img/graph-crimes/bars.jpg" alt="problematic plot" width="80%">
 
@@ -921,7 +905,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 12
+## Example 10
 
 <img src="img/graph-crimes/ordering.png" alt="problematic plot" width="50%">
 
@@ -929,7 +913,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 13
+## Example 11
 
 <img src="img/graph-crimes/confusing.png" alt="problematic plot" width="70%">
 
@@ -937,7 +921,7 @@ class: center, middle, inverse
 
 ---
 
-## Example 14
+## Example 12
 
 <img src="img/graph-crimes/histogram.png" alt="problematic plot" width="70%">
 
