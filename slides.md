@@ -1168,29 +1168,6 @@ class: center, middle, inverse
 
 ---
 
-## Copyright considerations
-
-### The problem
-
-- When you publish a manuscript, the copyright (including figures) is typically
-  transferred to the publisher.
-
-- Then if you want to use the figures that you created later, in principle you
-  need to ask the publisher.
-
-
-### This is how you can keep the copyright of your figures
-
-- Upload them to [figshare](https://figshare.com/) or [Zenodo](https://zenodo.org/) or [Dataverse](https://dataverse.no/).
-
-- License them under a [Creative Commons](https://creativecommons.org/) license.
-
-- Use these figures in your manuscript.
-
-- You can still use them outside (in your PhD thesis) since they are now licensed CC.
-
----
-
 class: center, middle, inverse
 
 # Choosing the right tools
