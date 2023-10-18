@@ -151,8 +151,6 @@ pipeline ready to be sent to the printer, no manual post-processing needed."]
 
 .cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
 
-<br>
-
 <img src="img/twitter-reproducibility.png" alt="twitter post" width="70%">
 
 .cite[https://twitter.com/kara_woo/status/1134878080567091200]
@@ -161,12 +159,11 @@ pipeline ready to be sent to the printer, no manual post-processing needed."]
 
 ## 2 take-home messages
 
-### Avoid tools that cannot be automated/scripted
+### Prefer tools that can be automated/scripted
 
-- It may cause you the last minute trouble.
+- If data or requirements change, somebody will have to update figures.
 
-- Stay away from tools where plots can only be modified manually by pointing
-  and clicking.
+- Automation makes it a bit easier.
 
 
 ### Optimize for comprehension and accessibility
