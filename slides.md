@@ -168,8 +168,27 @@ All four plots have the .emph[same] mean of x and y, sample variance of *x* and
 
 ---
 
-## Why visualizing data?
+Data visualization is a
 
+## "Visual representation and presentation of data to facilitate understanding"
+
+.cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
+
+
+### Data visualizations map .emph[data values] onto .emph[aesthetics/channels]
+
+- position
+- length
+- shape
+- size
+- color
+- line width
+- line type
+- (there exist [many more](https://altair-viz.github.io/user_guide/api.html#encoding-channels))
+
+---
+
+## Why visualizing data?
 
 ### More insight into data: easier to see patterns and problems
 
@@ -204,37 +223,21 @@ class: center, middle, inverse
 
 class: center, middle, inverse
 
-# Figure design, design process, and fundamentals
-
----
-
-Data visualization is a
-
-## "Visual representation and presentation of data to facilitate understanding"
-
-.cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
-
-
-### Data visualizations map .emph[data values] onto .emph[aesthetics/channels]
-
-- position
-- length
-- shape
-- size
-- color
-- line width
-- line type
+# How is your design process?
 
 ---
 
 ## How I design plots
 
+- "Before you start, define your goals in 1-3 sentences"
+  .cite[L. Garrison, "Share Your Science: Visualization for Communication"]
+
 - Sometimes: Sketch with pen and paper
 
 - Browse directories/galleries for inspiration:
+  [Vega-Altair](https://altair-viz.github.io/gallery/index.html),
   [Matplotlib](https://matplotlib.org/gallery.html),
   [Seaborn](https://seaborn.pydata.org/examples/index.html),
-  [Altair](https://altair-viz.github.io/gallery/index.html),
   [Plotly](https://plotly.com/python/),
   [Bokeh](https://demo.bokeh.org/),
   [ggplot](https://yhat.github.io/ggpy/),
@@ -251,20 +254,17 @@ Data visualization is a
 
 - Tweak and refine
 
+---
 
-### How is your process from start to report/thesis/publication?
+<img src="img/design-process/only-2007.svg" width="40%">
+<img src="img/design-process/color.svg" width="40%">
+
+<img src="img/design-process/log-scale.svg" width="40%">
+<img src="img/design-process/okabe-ito.svg" width="40%">
 
 ---
 
-.left-column50[
-<img src="jupyter/design/gapminder-first.png" width="80%">
-<img src="jupyter/design/gapminder-log.png" width="80%">
-]
-
-.right-column50[
-<img src="jupyter/design/gapminder-linear.png" width="80%">
-<img src="jupyter/design/gapminder-larger.png" width="80%">
-]
+<img src="img/design-process/with-subtitle.svg" width="80%">
 
 ---
 
@@ -1411,45 +1411,6 @@ Example:
 - Sources: https://github.com/bast/data-visualization
 
 - "Data visualization clinic" next week
-
----
-
-## Overview
-
-<!-- mention which sections will be there and how long each -->
-
-.left-column50[
-### Part 1
-
-- Introduction
-
-- Why visualizing data
-
-- Figure design, design process, and fundamentals
-
-- Gallery of visualizations
-
-- Discussing problematic plots
-]
-
-.right-column50[
-### Part 2
-
-- Reproducibility and FAIR principles
-
-- Data formats
-
-- Figures and tables in reports and publications
-
-- Choosing the right tools
-
-- Reproducible and reusable plots
-
-
-### Next week
-
-- Data clinic
-]
 
 ---
 
