@@ -997,17 +997,15 @@ class: center, middle, inverse
 
 ## What problems can arive when storing data like this?
 
-<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="50%">
+<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="100%">
 
 <!-- this is a phantasy dataset, apologies to biology students/researchers - this is not my domain -->
-
-Discuss possible problems in a collaborative document.
 
 ---
 
 ## What problems can arive when storing data like this?
 
-<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="50%">
+<img src="img/spreadsheet.png" alt="storing data in a spreadsheet" width="60%">
 
 - .emph[Format]: Limited interoperability with other programs
 - .emph[Error prone] (see e.g. [this famous example](https://www.washingtonpost.com/news/wonk/wp/2013/04/16/is-the-best-evidence-for-austerity-based-on-an-excel-spreadsheet-error/))
@@ -1019,16 +1017,16 @@ Discuss possible problems in a collaborative document.
 ## How should we arrange the data?
 
 .left-column50[
-<img src="img/svalbard-compact.png" alt="compact table" width="30%">
+<img src="img/svalbard-compact.png" alt="compact table" height="150px">
 
-<img src="img/svalbard-wide.png" alt="table wide format" width="70%">
+<img src="img/svalbard-wide.png" alt="table wide format" height="150px">
 
-<img src="img/svalbard-transposed.png" alt="table wide format transposed" width="70%">
+<img src="img/svalbard-transposed.png" alt="table wide format transposed" height="120px">
 ]
 
 --
 
-.right-column50[
+.right-column40[
 For the moment let us not focus on the tool, but the .emph[data structure]
 
 How can these 3 examples be problematic for .emph[automated data visualization]?
@@ -1041,11 +1039,11 @@ How can these 3 examples be problematic for .emph[automated data visualization]?
 
 ## "Tidy data"
 
-.left-column50[
-<img src="img/svalbard-tidy.png" alt="table tidy format" width="70%">
+.left-column40[
+<img src="img/svalbard-tidy.png" alt="table tidy format" width="100%">
 ]
 
-.right-column50[
+.right-column60[
 - Columns are variables
 
 - Rows are observations/measurements
@@ -1055,7 +1053,6 @@ How can these 3 examples be problematic for .emph[automated data visualization]?
 - Order does not matter
 
 - .emph[Easy to extend] with more species and more sites
-  without modifying the scripts
 
 - .emph[Structure for storing data] - this does not mean that this is ideal
   for tables in presentations or publications
@@ -1108,7 +1105,7 @@ seal,C,2
 
 - Often we want to visualize data sets with inconsistent or missing entries:
 
-```text
+```csv
 Date,Organization,Number of participants
 2020-09-27,UiT,20
 Oct 10 2020,UiT Norges arktiske universitet,15
@@ -1120,63 +1117,6 @@ Data cleaning is a bit outside the scope of this course but still good to know:
 - There are tools to clean and merge inconsistent data sets (e.g. [OpenRefine](https://openrefine.org/), see also
   [this Data Carpentry lesson](https://datacarpentry.org/OpenRefine-ecology-lesson/))
 - This does not have to be done manually
-
----
-
-## Folder organization
-
-.left-column50[
-This is only a suggestion:
-```
-my-project/
-├── README.md
-├── data/
-│   ├── README.md
-│   ├── LICENSE
-│   ├── my-data.csv
-│   └── another-data.csv
-├── manuscript/
-│   └── paper.tex
-└── figures/
-    ├── LICENSE
-    ├── my-notebook.ipynb
-    └── another-notebook.Rmd
-```
-]
-
-.right-column50[
-- There is not the one right way
-
-- Organize them to be understandable and reproducible
-  by others and your .emph[future you]
-
-- .emph[Lottery factor]: If you win the lottery and leave academic research today,
-  make sure your research group can still find all related files and understand them
-
-- Add .emph[license files]: make data and script reusable by others
-]
-
----
-
-## Where to store it
-
-- Store visualization script/notebook and data in a repository under .emph[version control]
-  (e.g. on [GitHub](https://github.com/))
-- Try to .emph[stora data close to the visualization pipeline] (same repository, even if it requires extra storage)
-- Archive with a persistent identifier: get a .emph[digital object identifier (DOI)] on services like
-  [Zenodo](https://zenodo.org/) or [Dataverse](https://dataverse.no/)
-
-
-### How about too big data?
-
-- Reference the DOI of the data
-- Consider providing a smaller example data set needed to reproduce plots
-
-
-### How about sensitive data?
-
-- There are storage options for sensitive data (e.g. patient data) but this is outside the scope
-- Consider providing a "mock" example data set
 
 ---
 
