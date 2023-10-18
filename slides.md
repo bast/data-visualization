@@ -312,32 +312,9 @@ structure of an enzyme, a 3D relief of a terrain)
 
 ---
 
-## Colors
+class: center, middle, inverse
 
-### Great resources
-
-- https://clauswilke.com/dataviz/color-pitfalls.html
-- https://blog.datawrapper.de/beautifulcolors/
-- [Okabe, M., and K. Ito. 2008. "Color Universal Design (CUD): How to Make Figures and Presentations That Are Friendly to Colorblind People."](https://jfly.uni-koeln.de/color/)
-- https://seaborn.pydata.org/tutorial/color_palettes.html
-- https://colorbrewer2.org/
-
----
-
-## Colors
-
-### Fundamental use cases
-
-- Distinguish groups of data
-
-- Represent data values
-
-- Highlight
-
-.cite[["Fundamentals of Data Visualization", C. O. Wilke](https://clauswilke.com/dataviz/)]
-
-
-### This is how most of us start but this is problematic:
+# Colors
 
 .quote["We need five colors for the plot: black ... red ... green ... blue ... ... ... orange?"]
 
@@ -410,6 +387,8 @@ structure of an enzyme, a 3D relief of a terrain)
 - Great for choropleth plots (here plotting unemployment rate).
 
 - Color vision deficiencies less of a concern for this type.
+
+- Avoid rainbow scales.
 ]
 
 .right-column50[
@@ -435,6 +414,20 @@ structure of an enzyme, a 3D relief of a terrain)
 
 .cite[<https://seaborn.pydata.org/examples/many_pairwise_correlations.html>]
 ]
+
+---
+
+## Colors
+
+### Great resources
+
+- https://clauswilke.com/dataviz/color-pitfalls.html
+- https://blog.datawrapper.de/beautifulcolors/
+- [Okabe, M., and K. Ito. 2008. "Color Universal Design (CUD): How to Make Figures and Presentations That Are Friendly to Colorblind People."](https://jfly.uni-koeln.de/color/)
+- https://seaborn.pydata.org/tutorial/color_palettes.html
+- https://colorbrewer2.org/
+- https://www.fabiocrameri.ch/colourmaps/
+- https://venngage.com/tools/accessible-color-palette-generator
 
 ---
 
