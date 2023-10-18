@@ -316,7 +316,7 @@ class: center, middle, inverse
 
 # Colors
 
-.quote["We need five colors for the plot: black ... red ... green ... blue ... ... ... orange?"]
+"We need five colors for the plot: black ... red ... green ... blue ... ... ... orange?"
 
 ---
 
