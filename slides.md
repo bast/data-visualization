@@ -1337,8 +1337,6 @@ class: center, middle
 - R/[ggplot2](https://ggplot2.tidyverse.org/) on [RStudio](https://rstudio.com/)/[R Markdown](https://rmarkdown.rstudio.com/) served via [Binder](https://mybinder.org/):
   https://github.com/bast/rstudio-binder-example
 
-- All plots in this slidedeck are reproducible on Jupyter notebooks: https://github.com/bast/data-visualization
-
 
 ### Other fantastic tools which I will not demonstrate
 
@@ -1350,15 +1348,10 @@ class: center, middle
 
 ## [Zenodo](https://zenodo.org/) can give you a persistent identifier (DOI) and make your pipeline citable
 
-Rather than specifying a GitHub repository when launching binder, you can instead use a Zenodo DOI.
+Rather than specifying a GitHub repository when launching
+[Binder](https://mybinder.org/), you can instead use a Zenodo DOI.
 
-Example:
-- We will be using an existing Zenodo DOI [10.5281/zenodo.3886864](https://doi.org/10.5281/zenodo.3247652) to start Binder
-- Go to https://mybinder.org and fill information using Zenodo DOI (as shown on the animation below):
-  <img src="https://miro.medium.com/max/1050/1*xOABVY2hNtVmjV5-LXreFw.gif" style="width: 60%;"/>
-- You can also get a Binder badge and update the README file in the
-  repository. It is good practice to add both the Zenodo badge and the
-  corresponding Binder badge.
+<img src="https://miro.medium.com/max/1050/1*xOABVY2hNtVmjV5-LXreFw.gif" style="width: 100%;"/>
 
 ---
 
