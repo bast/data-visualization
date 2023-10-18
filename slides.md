@@ -312,25 +312,6 @@ structure of an enzyme, a 3D relief of a terrain)
 
 ---
 
-## Coordinates: linear vs. log
-
-### There are also polar coordinates and spherical coordinates and their projections (more about that later)
-
-.left-column50[
-<img src="jupyter/gapminder/gapminder-linear.png" width="95%">
-
-- Linear axes are linear in addition
-]
-
-.right-column50[
-<img src="jupyter/gapminder/gapminder-larger.png" width="95%">
-
-- Log scales are linear in multiplication
-- Log scales used when the dataset contains numbers of very different magnitudes
-]
-
----
-
 ## Colors
 
 ### Great resources
@@ -373,7 +354,7 @@ structure of an enzyme, a 3D relief of a terrain)
 .right-column50[
 - 4% of the population is affected
 
-- View your color figures under CVD simulations
+- View your color figures under [CVD simulations](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 
 - Use color scales designed to be CVD-friendly
 ]
@@ -1242,82 +1223,6 @@ Two main families of libraries: procedural (e.g. Matplotlib) and declarative
 class: center, middle, inverse
 
 # Reproducible and reusable plots
-
----
-
-## Jupyter notebooks
-
-.left-column50[
-<img src="img/jupyter/medicean-stars.png" style="width: 50%;"/>
-
-- **One of the first notebooks: Galileo's drawings of Jupiter and its Medicean
-    Stars** from Sidereus Nuncius. Image courtesy of the History of Science
-    Collections, University of Oklahoma Libraries (CC-BY).
-]
-
-.right-column50[
-- **Code, text, equations, figures, plots**, etc. are interleaved, creating a *computational narrative*.
-- [*"an environment in which users execute code, see what happens, modify and
-  repeat in a kind of iterative conversation between researcher and
-  data"*](https://www.nature.com/articles/d41586-018-07196-1)
-- The name "Jupyter" derives from Julia+Python+R, but today Jupyter kernels
-  exist for [dozens of programming languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
-]
-
----
-
-## Example
-
-.left-column50[
-<img src="img/jupyter/gravity.jpg" style="width: 60%;"/>
-
-Discovery of gravitational waves.
-]
-
-.right-column50[
-As a case example, let us have a look at the analysis published together with the
-discovery of gravitational waves. [This
-page](https://losc.ligo.org/tutorials/) lists the available analyses
-and presents several options to browse them.
-
-- A quick look at short segments of data can be found at
-  [https://github.com/losc-tutorial/quickview](https://github.com/losc-tutorial/quickview)
-- The notebook can be opened and interactively explored
-  using Binder by clicking the "launch Binder" button.
-]
-
----
-
-## Another example
-
-.left-column50[
-<img src="img/jupyter/activity_inequality.png" style="width: 100%;"/>
-
-Stanford Activity Inequality Study.
-]
-
-.right-column50[
-Researchers in the Stanford Activity Inequality Study measured daily
-activity from cell phone tracking data for over 700,000 users in
-different countries across the world.
-- All data and notebooks are available at
-  [https://github.com/timalthoff/activityinequality](https://github.com/timalthoff/activityinequality)
-
-For **more examples**, head over to the [Gallery of interesting Jupyter
-Notebooks](https://github.com/jupyter/jupyter/wiki).
-]
-
----
-
-## R Markdown
-
-Same idea as in the Jupyter notebook.
-
-Example:
-- https://github.com/clauswilke/dataviz (the source code for https://clauswilke.com/dataviz/)
-- Compare these two:
-  - https://github.com/clauswilke/dataviz/blob/master/proportional_ink.Rmd
-  - https://clauswilke.com/dataviz/proportional-ink.html
 
 ---
 
