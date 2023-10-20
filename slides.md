@@ -856,6 +856,16 @@ Two main families: procedural (e.g. Matplotlib) and declarative.
 
 class: center, middle, inverse
 
+# Data visualization using Python
+
+https://coderefinery.github.io/data-visualization-python/
+
+(co-created by the author of these slides)
+
+---
+
+class: center, middle, inverse
+
 # Reproducible and reusable plots
 
 ---
